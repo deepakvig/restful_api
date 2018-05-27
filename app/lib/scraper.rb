@@ -22,6 +22,6 @@ class Scraper
         end
       end
     end
-    hash.to_json
+    hash
   end
 end

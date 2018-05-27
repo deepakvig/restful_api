@@ -4,6 +4,7 @@ class Page < ApplicationRecord
   validate :valid_url?
 
   before_create :set_content
+  serialize :content, JSON
 
   private
 
